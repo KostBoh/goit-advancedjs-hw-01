@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   const playButton = document.getElementById('playButton');
+
   if (playButton) {
     playButton.addEventListener('click', function () {
       if (!playbackStarted) {
